@@ -1,0 +1,1428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Ponti, Daniel J.</origin>
+        <origin>Blair, J. Luke</origin>
+        <origin>Rosa, Carla M.</origin>
+        <origin>Thomas, Kate</origin>
+        <origin>Pickering, Alexandra J.</origin>
+        <origin>Dawson, Timothy</origin>
+        <origin>Akciz, Sinan</origin>
+        <origin>Angster, Stephen</origin>
+        <origin>Bacon, Steven</origin>
+        <origin>Barth, Nicolas</origin>
+        <origin>Bennett, Scott</origin>
+        <origin>Blake, Kelly</origin>
+        <origin>Bork, Stephan</origin>
+        <origin>Bormann, Jayne</origin>
+        <origin>Brooks, Benjamin</origin>
+        <origin>Bullard, Thomas</origin>
+        <origin>Burgess, Paul</origin>
+        <origin>DeFrisco, Michael</origin>
+        <origin>Delano, Jaime</origin>
+        <origin>Dolan, James</origin>
+        <origin>DuRoss, Christopher</origin>
+        <origin>Ericksen, Todd</origin>
+        <origin>Frost, Erik</origin>
+        <origin>Funning, Gareth</origin>
+        <origin>Gold, Ryan</origin>
+        <origin>Graehl, Nicholas</origin>
+        <origin>Gutierrez, Carlos</origin>
+        <origin>Haddon, Elizabeth</origin>
+        <origin>Hatem, Alexandra</origin>
+        <origin>Hernandez, Janis</origin>
+        <origin>Hitchcock, Christopher</origin>
+        <origin>Holland, Peter</origin>
+        <origin>Hudnut, Kenneth</origin>
+        <origin>Kendrick, Katherine</origin>
+        <origin>Koehler, Richard</origin>
+        <origin>Kozaci, Ozgur</origin>
+        <origin>Ladinsky, Tyler</origin>
+        <origin>Madugo, Christopher</origin>
+        <origin>Mareschal, Maxime</origin>
+        <origin>McPhillips, Devin</origin>
+        <origin>Milliner, Christopher</origin>
+        <origin>Morelan, Alexander</origin>
+        <origin>Nevitt, Johanna</origin>
+        <origin>Olson, Brian</origin>
+        <origin>O'Neal, Matt</origin>
+        <origin>Padilla, Salena</origin>
+        <origin>Patton, Jason</origin>
+        <origin>Philibosian, Belle</origin>
+        <origin>Pierce, Ian</origin>
+        <origin>Sandwell, David</origin>
+        <origin>Scharer, Katherine</origin>
+        <origin>Seitz, Gordon</origin>
+        <origin>Singleton, Drake</origin>
+        <origin>Spangler, Eleanor</origin>
+        <origin>Swanson, Brian</origin>
+        <origin>Thompson Jobe, Jessica</origin>
+        <origin>Treiman, Jerome</origin>
+        <origin>Valencia, Francesca</origin>
+        <origin>Williams, Alana</origin>
+        <origin>Zachariasen, Judith</origin>
+        <origin>Zinke, Robert</origin>
+        <pubdate>202007</pubdate>
+        <title>Table of Field Observations With Quantitative Displacement Measurements Obtained From
+          Surface Faulting and Ground Deformation Features Produced by the Ridgecrest M6.4 and M7.1
+          Earthquake Sequence of July 4 and 5, 2019: Provisional Release 1</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Moffett Field, CA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5066/P9BZ5IJ9</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Ponti, Daniel J.</origin>
+            <origin>Blair, J. Luke</origin>
+            <origin>Rosa, Carla M.</origin>
+            <origin>Thomas, Kate</origin>
+            <origin>Pickering, Alexandra J.</origin>
+            <origin>Akciz, Sinan</origin>
+            <origin>Angster, Stephen</origin>
+            <origin>Avouac, Jean-Philipe</origin>
+            <origin>Bachhuber, Jeffrey</origin>
+            <origin>Bacon, Steven</origin>
+            <origin>Barth, Nicolas</origin>
+            <origin>Bennett, Scott</origin>
+            <origin>Blake, Kelly</origin>
+            <origin>Bork, Stephan</origin>
+            <origin>Brooks, Benjamin</origin>
+            <origin>Bullard, Thomas</origin>
+            <origin>Burgess, Paul</origin>
+            <origin>Chupik, Colin</origin>
+            <origin>Dawson, Timothy</origin>
+            <origin>DeFrisco, Michael</origin>
+            <origin>Delano, Jaime</origin>
+            <origin>DeLong, Stephen</origin>
+            <origin>Dolan, James</origin>
+            <origin>Donnellan, Andrea</origin>
+            <origin>DuRoss, Christopher</origin>
+            <origin>Ericksen, Todd</origin>
+            <origin>Frost, Erik</origin>
+            <origin>Funning, Gareth</origin>
+            <origin>Gold, Ryan</origin>
+            <origin>Graehl, Nicholas</origin>
+            <origin>Gutierrez, Carlos</origin>
+            <origin>Haddon, Elizabeth</origin>
+            <origin>Hatem, Alexandra</origin>
+            <origin>Helms, John</origin>
+            <origin>Hernandez, Janis</origin>
+            <origin>Hitchcock, Christopher</origin>
+            <origin>Holland, Peter</origin>
+            <origin>Hudnut, Kenneth</origin>
+            <origin>Kendrick, Katherine</origin>
+            <origin>Koehler, Richard</origin>
+            <origin>Kozaci, Ozgur</origin>
+            <origin>Ladinsky, Tyler</origin>
+            <origin>Leeper, Robert</origin>
+            <origin>Madugo, Christopher</origin>
+            <origin>Mareschal, Maxime</origin>
+            <origin>McDonald, James</origin>
+            <origin>McPhillips, Devin</origin>
+            <origin>Milliner, Christopher</origin>
+            <origin>Mongovin, Daniel</origin>
+            <origin>Morelan, Alexander</origin>
+            <origin>Nale, Stephanie</origin>
+            <origin>Nevitt, Johanna</origin>
+            <origin>O'Neal, Matt</origin>
+            <origin>Olson, Brian</origin>
+            <origin>Oskin, Michael</origin>
+            <origin>Padilla, Salena</origin>
+            <origin>Patton, Jason</origin>
+            <origin>Philibosian, Belle</origin>
+            <origin>Pierce, Ian</origin>
+            <origin>Pridmore, Cynthia</origin>
+            <origin>Roth, Nathaniel</origin>
+            <origin>Sandwell, David</origin>
+            <origin>Scharer, Katherine</origin>
+            <origin>Seitz, Gordon</origin>
+            <origin>Singleton, Drake</origin>
+            <origin>Smith-Konter, Bridget</origin>
+            <origin>Spangler, Eleanor</origin>
+            <origin>Swanson, Brian</origin>
+            <origin>Thompson Jobe, Jessica</origin>
+            <origin>Treiman, Jerome</origin>
+            <origin>Valencia, Francesca</origin>
+            <origin>Vanderwal, Joshua</origin>
+            <origin>Williams, Alana</origin>
+            <origin>Xu, Xiaohua</origin>
+            <origin>Zachariasen, Judith</origin>
+            <origin>Zimmerman, Jade</origin>
+            <origin>Zinke, Robert</origin>
+            <pubdate>2020</pubdate>
+            <title>Documentation of surface fault rupture and ground-deformation features produced
+              by the 4 and 5 July 2019 Mw 6.4 and Mw 7.1 Ridgecrest earthquake sequence</title>
+            <geoform>Publication (Journal)</geoform>
+            <pubinfo>
+              <pubplace>Albany, CA</pubplace>
+              <publish>Seismological Research Letters</publish>
+            </pubinfo>
+            <onlink>https://doi.org/10.1785/0220190322</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset contains a provisional release of field observations at sites of fault
+        rupture and ground deformation features where quantitative displacement measurements were
+        obtained. This release does not include associated photographs and some observations where
+        there are outstanding questions about the measurements received; some duplicate observations may exist in this dataset. Photos and resolved
+        measurement data are anticipated for a future release. This dataset consists of a
+        comma-delimited ASCII text file where each line in the file represents an observation,
+        suitable for importing into a spreadsheet, database or GIS application for visualization and
+        analysis. These data are also summarized in a companion Google Earth Keyhole Markup Language
+        (kmz) file for easy visualization, which shows each observation as a placemark with
+        observation data displayed in the description balloon.</abstract>
+      <purpose>The purpose of this compilation is to present the data as reported, interpreted only
+        as necessary to assemble the information into the compilation schema and with as much
+        metadata about the observation as possible. We apply no measure of field quality; future
+        researchers can evaluate the reported data for their purposes by assessing measurement
+        completeness, reported uncertainties and measurement approaches, variability of multiple
+        measurements at the same site or nearby, and/or evaluation of photographic
+        evidence.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20190704</begdate>
+          <enddate>20191122</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-117.827412</westbc>
+        <eastbc>-117.34783</eastbc>
+        <northbc>35.932634</northbc>
+        <southbc>35.501797</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>earthquake occurrences</themekey>
+        <themekey>tectonic processes</themekey>
+        <themekey>geolocation measurement</themekey>
+        <themekey>hazards</themekey>
+        <themekey>seismology</themekey>
+        <themekey>field inventory and monitoring</themekey>
+        <themekey>maps and atlases</themekey>
+        <themekey>faulting (geologic)</themekey>
+        <themekey>deformation (geologic)</themekey>
+      </theme>
+      <place>
+        <placekt>Geographid Names Information System (GNIS)</placekt>
+        <placekey>California</placekey>
+        <placekey>Ridgecrest</placekey>
+        <placekey>Kern County</placekey>
+        <placekey>China Lake</placekey>
+        <placekey>Indian Wells Valley</placekey>
+        <placekey>Searles Valley</placekey>
+        <placekey>San Bernardino County</placekey>
+        <placekey>Inyo County</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>none</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Daniel J Ponti</cntper>
+          <cntorg>SOUTHWEST REGION: EARTHQUAKE SCIENCE CENTER</cntorg>
+        </cntperp>
+        <cntpos>Scientist Emeritus</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>350 North Akron Road</address>
+          <city>Moffett Field</city>
+          <state>CA</state>
+          <postal>94035</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>650-439-2679</cntvoice>
+        <cntemail>dponti@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No formal attribute accuracy tests were conducted.</attraccr>
+    </attracc>
+    <logic>No formal logical accuracy tests were conducted.</logic>
+    <complete>Data set is considered complete for the information presented, as described in the
+      abstract. Users are advised to read the rest of the metadata record carefully for additional
+      details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>No formal positional accuracy tests were conducted. See larger work for discussion
+          on location accuracy.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>No formal positional accuracy tests were conducted.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Field observations were submitted directly from field participants and consist of
+          notes, descriptions, and measurements that document the existence and character of
+          faulting or ground deformation at a geographic point. Observations of damage to buildings
+          or earthen structures such as embankments or fills are not included in the compilation
+          unless they reflect permanent deformation of the natural ground surface. All contributed
+          site data were extracted from their originally provided formats, parsed, and loaded into a
+          spatial database using a compilation schema developed by USGS and CGS. Each data record
+          represents an observation of faulting, ground deformation or no deformation, that was made
+          by an investigator or field team working together during a unique visit on a specific
+          date. If the same observer/team revisits the same locality on a different day or time and
+          records a separate observation, this constitutes a separate data record. Similarly,
+          observations made by different field teams at the same locality are preserved as separate
+          observation records. The goal of the compilation is to present the data as reported,
+          interpreted only as necessary to assemble the information into the compilation schema and
+          with as much metadata about the observation as possible.</procdesc>
+        <procdate>2020</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Daniel J Ponti</cntper>
+              <cntorg>SOUTHWEST REGION: EARTHQUAKE SCIENCE CENTER</cntorg>
+            </cntperp>
+            <cntpos>Scientist Emeritus</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>350 North Akron Road</address>
+              <city>Moffett Field</city>
+              <state>CA</state>
+              <postal>94035</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>650-439-2679</cntvoice>
+            <cntemail>dponti@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>China Lake, Ridgecrest, California</indspref>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>1130</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>8.983152841195215E-9</latres>
+        <longres>8.983152841195215E-9</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Attribute Table</enttypl>
+        <enttypd>Table containing attribute information associated with the data set.</enttypd>
+        <enttypds>Producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>intid</attrlabl>
+        <attrdef>Observation identifier assigned at compilation</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>Internal identifier. Serves as a primary key for the data record as this value is
+            unique within the dataset.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>origid</attrlabl>
+        <attrdef>Original name or ID of observation station as defined by the observer</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>The original name or ID of the observation station as defined by the observer. As
+            different observers use their own system for labeling their observations, there is no
+            guarantee that these values are unique within this dataset.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>observer</attrlabl>
+        <attrdef>The principal team member making the observation.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>The first initial and the last name of the individual that collected the data, or
+            the primary contact for the data.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>obs_affiliation</attrlabl>
+        <attrdef>The agency or organization affiliated with the principal observer.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Cal. SSC</edomv>
+            <edomvd>California Seismic Safety Commission</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>CGS</edomv>
+            <edomvd>California Department of Conservation, California Geological Survey</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>CSUF</edomv>
+            <edomvd>TCalifornia State University, Fullerton</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>DRI</edomv>
+            <edomvd>Desert Research Institute</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>HiDesCons</edomv>
+            <edomvd>High Desert Consulting</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>InfraTerra</edomv>
+            <edomvd>InfraTerra</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>JPL</edomv>
+            <edomvd>Jet Propulsion Laboratory, California Institute of Technology</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PG&amp;E</edomv>
+            <edomvd>Pacific Gas and Electric</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>SCEC</edomv>
+            <edomvd>Southern California Earthquake Center</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UCR</edomv>
+            <edomvd>University of California, Riverside</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UCSD-Scripps</edomv>
+            <edomvd>Scripps Institution of Oceanography, University of California, San
+              Diego</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Univ. Hawaii-Manoa</edomv>
+            <edomvd>University of Hawaii, Manoa</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UNR</edomv>
+            <edomvd>University of Nevada, Reno</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>USC</edomv>
+            <edomvd>University of Southern California</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>USGS</edomv>
+            <edomvd>United States Geological Survey</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>USN</edomv>
+            <edomvd>United States Navy</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>team_id</attrlabl>
+        <attrdef>Field team identifier</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>A textual description that is the identifier for a team of observers working together. The identifer is in the form of mm/dd-##, surrounded by single quotes to parse as text in Excel.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>team</attrlabl>
+        <attrdef>Team members</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>List of participants (first initial, last name, and affiliation) working together
+            who contributed to the observation. Note: kmz version shows the team identifier as a link
+            that displays team members.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>obs_position</attrlabl>
+        <attrdef>The location of the observer relative to the actual deformation.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>At Site</edomv>
+            <edomvd>The primary observer was at the location of the recorded observation.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Aircraft</edomv>
+            <edomvd>The primary observer collected the observation location from an
+              aircraft.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Imagery</edomv>
+            <edomvd>The primary observer collected the observation from remote sensed data such as
+              aircraft or satellite imagery, InSAR, etc.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Other</edomv>
+            <edomvd>The observations was obtained from some other position.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>obs_date</attrlabl>
+        <attrdef>The date and time that the observation was made. A textual description of the date
+          as numeric values of the year, month, day separated by dashes. Time of observation is
+          presented after the letter "T" with hours, minutes, seconds each separated by a colon and
+          followed by a time zone offset. For example, 2019-07-05T17:44:55-07 represents July 5,
+          2019, at 5:44 PM and 55 seconds, with a time zone offset of -7 hours before Greenwich Mean
+          Time.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2019-07-04T19:37:17-07</rdommin>
+            <rdommax>2019-11-22T10:00:00-08</rdommax>
+            <attrunit>Year, Month, Day, Hours, Minutes, Seconds</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>origin</attrlabl>
+        <attrdef>An enumerated value describing the inferred origin of the observed feature, based
+          on ground observations and other factors such as rupture continuity and surface
+          expression.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Tectonic</edomv>
+            <edomvd>An observation where the zone of deformation has strike and displacements
+              consistent with the earthquake source mechanism. Sense of offset may be observed
+              directly or inferred from patterns of en echelon surface fractures. Tectonic surface
+              rupture includes both seismogenic rupture that has propagated to the surface from the
+              earthquake source, and slip resulting from shallow strain release triggered by shaking
+              or changes in near-surface stresses from the earthquakes.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Shaking</edomv>
+            <edomvd>A feature inferred to have been produced solely by shaking where the specific
+              mechanism for the deformation is not determined.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Liquefaction</edomv>
+            <edomvd>A feature inferred to be produced by liquefaction-induced ground failure,
+              including lateral spreads and sand boils.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Slump/Slope Failure</edomv>
+            <edomvd>A feature inferred to be produced by shaking-induced slope failure, including
+              head scarps, lateral scarps and compressional toes of landslides, small-scale slumps,
+              settlements, rock falls, and bank failures.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Uncertain</edomv>
+            <edomvd>Observed deformation in which the feature strike and displacement could be
+              attributable to either faulting or lateral spreading. This value is also used for
+              observations in which the orientation and displacements measured in the field appear
+              not to be consistent with the earthquake source mechanisms nor can the feature be
+              readily attributable to typical earthquake-induced ground-failure mechanisms, such as
+              liquefaction or shallow slope failure.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>source</attrlabl>
+        <attrdef>The earthquake presumed to have produced the observed deformation (M6.4 - July 4),
+          (M7.1 - July 5), or Uncertain</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>7.1</edomv>
+            <edomvd>Rupture likely produced by the M7.1 earthquake of July 5, 2019.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>6.4</edomv>
+            <edomvd>Rupture likely produced by the M6.4 earthquake of July 4, 2019.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Uncertain</edomv>
+            <edomvd>Rupture that is not readily attributable to either the M6.4 or M7.1
+              events.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>citation</attrlabl>
+        <attrdef>The citation to a published source if the observation's data is published
+          elsewhere.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>Author(s), date and DOI of the publication</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>description</attrlabl>
+        <attrdef>Description at the site, including any observer notes, etc.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>A textual description made by observers at the observation location.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>fault_az_min</attrlabl>
+        <attrdef>Minimum value for fault strike or azimuth in degrees of arc.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>360</rdommax>
+            <attrunit>Beginning at true north (0 or 360-degrees) and moving clockwise on a 360
+              degree circle, east has azimuth 90-degrees, south 180-degrees, and west
+              270-degrees.</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>fault_az_pref</attrlabl>
+        <attrdef>Preferred value for the strike of the fault, expressed as an azimuth in bearing
+          form (0-360 degrees arc, 0 degrees = true north, right-hand rule relative to fault dip
+          direction if known). Bearing should be taken over a relatively long baseline - 10s of
+          meters if possible - centered over the site.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>360</rdommax>
+            <attrunit>Beginning at true north (0 or 360-degrees) and moving clockwise on a 360
+              degree circle, east has azimuth 90-degrees, south 180-degrees, and west
+              270-degrees.</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>fault_az_max</attrlabl>
+        <attrdef>Maximum value for fault strike or azimuth in degrees of arc.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>360</rdommax>
+            <attrunit>Beginning at true north (0 or 360-degrees) and moving clockwise on a 360
+              degree circle, east has azimuth 90-degrees, south 180-degrees, and west
+              270-degrees.</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>fault_dip_min</attrlabl>
+        <attrdef>Estimate of the minimum fault dip in degrees arc.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>90</rdommax>
+            <attrunit>Measured in degrees arc (0-90 degrees, 0 degrees = horizontal).</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>fault_dip_pref</attrlabl>
+        <attrdef>Preferred value for dip of the fault as observed, in degrees arc (0-90 degrees, 0
+          degrees = horizontal).</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>90</rdommax>
+            <attrunit>Measured in degrees arc (0-90 degrees, 0 degrees = horizontal).</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>fault_dip_max</attrlabl>
+        <attrdef>Estimate of the maximum fault dip in degrees arc.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>90</rdommax>
+            <attrunit>Measured in degrees arc (0-90 degrees, 0 degrees = horizontal).</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>local_frac_az_min</attrlabl>
+        <attrdef>Estimate of the minimum value of the local fracture azimuth measurement, in degrees
+          arc.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>360</rdommax>
+            <attrunit>Beginning at true north (0 or 360-degrees) and moving clockwise on a 360
+              degree circle, east has azimuth 90-degrees, south 180-degrees, and west
+              270-degrees.</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>local_frac_az_pref</attrlabl>
+        <attrdef>Preferred value for the strike of the local fracture where a measurement is taken;
+          values that differ from the overall strike of the fault typically occur where fault is
+          expressed as en echelon fractures; in degrees arc (0 degrees = true north).</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>360</rdommax>
+            <attrunit>Beginning at true north (0 or 360-degrees) and moving clockwise on a 360
+              degree circle, east has azimuth 90-degrees, south 180-degrees, and west
+              270-degrees.</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>local_frac_az_max</attrlabl>
+        <attrdef>Estimate of the maximum value of the local fracture azimuth measurement, in degrees
+          arc.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>360</rdommax>
+            <attrunit>Beginning at true north (0 or 360-degrees) and moving clockwise on a 360
+              degree circle, east has azimuth 90-degrees, south 180-degrees, and west
+              270-degrees.</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>rup_width_min</attrlabl>
+        <attrdef>Estimate of the minimum value of the rupture width.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>A textual description of the rupture width, as a numerical value in meters.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>rupture_width_pref</attrlabl>
+        <attrdef>Preferred value for the width of the rupture zone in meters, measured normal to
+          strike of the fault.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>A textual description of the rupture width, as a numerical value in meters.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>rup_width_max</attrlabl>
+        <attrdef>Estimate of the maximum value of the rupture width, in meters.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>A textual description of the rupture width, as a numerical value in meters.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>fault_expression</attrlabl>
+        <attrdef>A term describing the principal morphology of deformation at the site.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>A textual description of the nature of fault expression at the observation
+            location.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>scarp_facing_direction</attrlabl>
+        <attrdef>Cardinal direction that the fault scarp faces (eg. the down-dropped side). Allowed
+          values are: North, East, South, West.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>North</edomv>
+            <edomvd>Fault scarp faces North.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>South</edomv>
+            <edomvd>Fault scarp faces south.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>East</edomv>
+            <edomvd>Fault scarp faces east.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>West</edomv>
+            <edomvd>Fault scarp faces west.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>striations_observed</attrlabl>
+        <attrdef>Yes or No if fault plane is exposed and striations are observable.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Yes</edomv>
+            <edomvd>Yes, the fault plane is exposed and striations are observable.</edomvd>
+            <edomvds>producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>No</edomv>
+            <edomvd>No, the fault plane is not exposed and/or striations are not
+              observable.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>gouge_observed</attrlabl>
+        <attrdef>Yes or No if fault plane is exposed and gouge is observable.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Yes</edomv>
+            <edomvd>Yes, the fault plane is exposed and gouge is observable.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>No</edomv>
+            <edomvd>No, the fault plane is not exposed and/or gouge is not observable.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>sense</attrlabl>
+        <attrdef>Dominant sense of slip on the fault.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Left</edomv>
+            <edomvd>Slip is dominantly left-lateral.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Left - Normal</edomv>
+            <edomvd>Slip where normal offset is between 0.5 and 1.5 times the value of left-lateral
+              offset.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Left - Reverse</edomv>
+            <edomvd>Slip where reverse offset is between 0.5 and 1.5 times the value of left-lateral
+              offset.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Right</edomv>
+            <edomvd>Slip is dominantly right-lateral.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Right - Normal</edomv>
+            <edomvd>Slip where normal offset is between 0.5 and 1.5 times the value of right-lateral
+              offset.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Right - Reverse</edomv>
+            <edomvd>Slip where reverse offset is between 0.5 and 1.5 times the value of
+              right-lateral offset.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Normal</edomv>
+            <edomvd>Slip is dominantly of normal sense.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Reverse</edomv>
+            <edomvd>Slip is dominantly reverse sense and where fault dip is greater than 45
+              degrees.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Thrust</edomv>
+            <edomvd>Slip is dominantly reverse sense and where fault dip is less than 45
+              degrees.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Extensional</edomv>
+            <edomvd>Slip is dominantly extensional in sense, typically expressed as open
+              fissures.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>observed_feature</attrlabl>
+        <attrdef>The faulted or deformed feature that is being observed or measured (eg. soil,
+          channel margin, pavement, road edge, etc).</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>A textual description of the faulted or deformed feature being observed.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>feature_type</attrlabl>
+        <attrdef>Offset feature classification.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Natural</edomv>
+            <edomvd>A naturally occurring feature such as a stream channel, dune, terrace edge,
+              etc.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Cultural</edomv>
+            <edomvd>A man-made feature (eg. road, fence, curb).</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>vector_length_min</attrlabl>
+        <attrdef>Estimate of the minimum slip vector length.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>A textual description of the minimum slip vector length, represented as a real
+            number in cm.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>vector_length_pref</attrlabl>
+        <attrdef>Preferred value for the length of the slip vector, in cm. This is the total slip on
+          the fault plane that connects piercing points.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>A textual description of the preferred slip vector length, represented as a real
+            number in cm.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>vector_length_max</attrlabl>
+        <attrdef>Estimated maximum value for slip vector length.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>A textual description of the maximum slip vector length, represented as a real
+            number in cm.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>vect_plunge_min</attrlabl>
+        <attrdef>Estimate of the minimum vector plunge in degrees arc.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>90</rdommax>
+            <attrunit>Measured in degrees arc (0-90 degrees, 0 degrees = horizontal).</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>vect_plunge_pref</attrlabl>
+        <attrdef>Preferred value for the plunge of the slip vector, in degrees arc (0 - 90 degrees;
+          0 degrees = horizontal).</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>90</rdommax>
+            <attrunit>Measured in degrees arc (0-90 degrees, 0 degrees = horizontal).</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>vect_plunge_max</attrlabl>
+        <attrdef>Estimate of the maximum vector plunge in degrees arc.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>90</rdommax>
+            <attrunit>Measured in degrees arc (0-90 degrees, 0 degrees = horizontal).</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>vect_az_min</attrlabl>
+        <attrdef>Minimum slip vector azimuth, in degrees arc</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>360</rdommax>
+            <attrunit>Beginning at true north (0 or 360-degrees) and moving clockwise on a 360
+              degree circle, east has azimuth 90-degrees, south 180-degrees, and west
+              270-degrees.</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>vect_az_pref</attrlabl>
+        <attrdef>Preferred value for the slip vector azimuth (0-360 degrees in the down-plunge
+          direction; 0 degrees = true north).</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>360</rdommax>
+            <attrunit>Beginning at true north (0 or 360-degrees) and moving clockwise on a 360
+              degree circle, east has azimuth 90-degrees, south 180-degrees, and west
+              270-degrees.</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>vect_az_max</attrlabl>
+        <attrdef>Maximum slip vector azimuth.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>360</rdommax>
+            <attrunit>Beginning at true north (0 or 360-degrees) and moving clockwise on a 360
+              degree circle, east has azimuth 90-degrees, south 180-degrees, and west
+              270-degrees.</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>aperture_min</attrlabl>
+        <attrdef>Estimate of the minimum value of the aperture in meters.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>A textual description of the minimum measurement aperture, as a real number, in
+            meters.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>aperture_pref</attrlabl>
+        <attrdef>The length, in meters, measured normal to the fault across which the measurement
+          was taken.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>A textual description of the preferred measurement aperture, as a real number, in
+            meters.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>aperture_max</attrlabl>
+        <attrdef>Estimate of the maximum measurement aperture distance, in meters.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>A textual description of the maximum measurement aperture, as a real number, in
+            meters.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>horiz_offset_min</attrlabl>
+        <attrdef>Estimate of the minimum horizontal offset or separation, in cm.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>A textual description of the minimum horizontal offset or separation, as a real
+            number, in centimeters.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>horiz_offset_pref</attrlabl>
+        <attrdef>The preferred amount of horizontal offset or separation, in centimeters. This is
+          the horizontal component of the slip vector or the horizontal separation of any displaced
+          offset feature.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>A textual description of the preferred horizontal offset or separation, as a real
+            number, in centimeters.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>horiz_offset_max</attrlabl>
+        <attrdef>Estimate of the maximum value of the horizontal offset or separation, in
+          centimeters.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>A textual description of the maximum horizontal offset or separation, as a real
+            number, in centimeters.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>horiz_slip_type</attrlabl>
+        <attrdef>Horizontal offset classification.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Separation</edomv>
+            <edomvd>Measurement is of the horizontal separation of a displaced feature, usually
+              measured normal to the feature azimuth but could be measured along any azimuth.
+              Measurements with unrecorded horizontal separation azimuth's are assumed to be
+              separations.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Offset</edomv>
+            <edomvd>Measurement is of the displacement of a piercing point on the fault plane; eg.
+              the horizontal component of the slip vector.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>horiz_az_min</attrlabl>
+        <attrdef>Estimate of the minimum value of the azimuth measurement, in degrees arc.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>360</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>horiz_az_pref</attrlabl>
+        <attrdef>Preferred value of the azimuth of the horizontal offset component, or lateral
+          separation of feature, as a bearing - in down plunge or down dip direction.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>360</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>horiz_az_max</attrlabl>
+        <attrdef>Estimate of the maximum value of the azimuth measurement, in degrees arc.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>360</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>vert_offset_min</attrlabl>
+        <attrdef>Estimate of the minimum value of the vertical offset, in cm.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>A textual description of the minimum vertical offset, as a numerical value in
+            centimeters.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>vert_offset_pref</attrlabl>
+        <attrdef>The preferred value for the amount of vertical displacement of the fault piercing
+          point, in centimeters, or the measured value of the vertical separation of the land
+          surface (vertical separation).</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>A textual description of the vertical offset, as a numerical value in
+            centimeters.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>vert_offset_max</attrlabl>
+        <attrdef>Estimate of the maximum value of the vertical offset, in cm.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>A textual description of the maximum vertical offset, as a numerical value in
+            centimeters.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>vert_slip_type</attrlabl>
+        <attrdef>Classification of vertical slip.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Separation</edomv>
+            <edomvd>Measurement is of the vertical separation of a displaced feature (typically the
+              land surface). Measurements with unknown slip vector azimuths are inferred to be
+              separations.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Offset</edomv>
+            <edomvd>Measurement is of the vertical displacement of a piercing point on the fault
+              plane; eg. the vertical component the slip vector.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>heave_type</attrlabl>
+        <attrdef>Type of offset normal to fault plane.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Extension</edomv>
+            <edomvd>The nature of offset normal to the fault plane is extensional.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Compression</edomv>
+            <edomvd>The nature of offset normal to the fault plane is compressional.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>heave_min</attrlabl>
+        <attrdef>Estimate of the minimum value of the extensional or compressional component across
+          the fault.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>A textual value of the measurement in centimeters.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>heave_pref</attrlabl>
+        <attrdef>Preferred value for the component of slip normal to the fault that represents
+          extension or compression.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>A textual description of the measurement in centimeters.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>heave_max</attrlabl>
+        <attrdef>Estimate of the maximum value of the extensional or compressional component across
+          the fault.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>A textual description of the measurement in centimeters.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>latitude</attrlabl>
+        <attrdef>Updated latitude.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>Latitude coordinate of the station in decimal degrees, WGS84 datum. These values are
+            derived either from the coordinate provided directly by the observer, or are digitized
+            during compilation using airborne imagery and ground photographs to more accurately
+            locate the observation on the feature of interest. For provisional releases, this value
+            is the same as the originally reported value except in cases where the coordinate value
+            was clearly in error and a more accurate value could be recovered.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>longitude</attrlabl>
+        <attrdef>Updated longitude.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>Longitude coordinate of the station in decimal degrees, WGS84 datum. These values
+            are derived either from the coordinate provided directly by the observer, or are
+            digitized during compilation using airborne imagery and ground photographs to more
+            accurately locate the observation on the feature of interest. For provisional releases,
+            this value is the same as the originally reported value except in cases where the
+            coordinate value was clearly in error and a more accurate value could be
+            recovered.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>orig_lat</attrlabl>
+        <attrdef>Latitude as originally reported.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>Original latitude reported by the observer in decimal degrees, WGS84 datum.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>orig_lon</attrlabl>
+        <attrdef>Longitude as originally reported.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>Original longitude reported by the observer in decimal degrees, WGS84 datum.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>note</attrlabl>
+        <attrdef>Compiler notes.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>Any notes or disclaimers by the compilers about the observation.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>U.S. Geological Survey - ScienceBase</cntper>
+          <cntorg>U.S. Geological Survey - ScienceBase</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Distributor assumes no liability for misuse of data.</distliab>
+    <techpreq>Table is in CSV format, a tabular ascii text format delimited by commas.</techpreq>
+  </distinfo>
+  <metainfo>
+    <metd>20200707</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>James Luke Blair</cntper>
+          <cntorg>SOUTHWEST REGION: EARTHQUAKE SCIENCE CENTER</cntorg>
+        </cntperp>
+        <cntpos>Geologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>350 North Akron Road</address>
+          <city>Moffett Field</city>
+          <state>CA</state>
+          <postal>94035</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>650-439-2707</cntvoice>
+        <cntemail>lblair@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
