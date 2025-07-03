@@ -17,105 +17,72 @@ class EarthquakeDataMapper:
     """Class to handle mapping of earthquake observation data to current schema"""
     
     def __init__(self):
-        # Define field mappings based on semantic analysis
         self.napa_mapping = {
-            # Core identification
-            'stnid': 'Station_ID',  # Station identifier
-            'intid': None,  # Internal ID - not needed in current
-            'observer': 'Creator',  # Person who made observation
-            'obs_date': 'Date_of_Movement',  # When earthquake occurred
-            'origin': 'Feature_Origin',  # Tectonic vs uncertain
-            
-            # Location data (CRITICAL - missing in current schema)
-            'latitude': None,  # Need to add to current schema
-            'longitude': None,  # Need to add to current schema
-            'orig_lat': None,  # Original coordinates
-            'orig_lon': None,  # Original coordinates
-            
-            # Descriptive fields
+            'stnid': 'Station_ID', 
+            'intid': None, 
+            'observer': 'Creator',  
+            'obs_date': 'Date_of_Movement',  
+            'origin': 'Feature_Origin',  
+            'latitude': None,  
+            'longitude': None,  
+            'orig_lat': None, 
+            'orig_lon': None, 
             'description': 'Notes',
-            'citation': None,  # Could go in notes if needed
-            'photo': None,  # Photo availability - could note in Notes
-            
-            # Fault geometry
+            'citation': None, 
+            'photo': None, 
             'fault_azimuth': 'Local_Fault_Azimuth_Degrees',
-            
-            # Measurements
-            'ss_displacement': 'Horizontal_Separation_cm',  # Strike-slip displacement
+            'ss_displacement': 'Horizontal_Separation_cm',
             'ss_sense': 'Slip_Sense',
-            'ext_offset': 'Heave_cm',  # Extension offset
-            'comp_offset': None,  # Compression - could combine with heave
+            'ext_offset': 'Heave_cm', 
+            'comp_offset': None, 
             'vert_offset': 'Vertical_Separation_cm',
             'upthrown_side': 'Scarp_Facing_Direction',
-            
-            # Feature classification
-            'observed_feature': None,  # Store in Notes
-            'trace': None,  # Trace identifier - store in Notes
+            'observed_feature': None, 
+            'trace': None, 
         }
         
         self.ridgecrest_mapping = {
-            # Core identification
-            'intid': None,  # Will use origid for Station_ID instead
+            'intid': None,  
             'origid': 'Station_ID',
             'observer': 'Creator',
             'obs_date': 'Date_of_Movement',
             'origin': 'Feature_Origin',
-            
-            # Team/affiliation info
-            'obs_affiliation': None,  # Store in Notes
-            'team_id': None,  # Store in Notes  
-            'team': None,  # Store in Notes
-            'obs_position': None,  # Store in Notes
-            'source': None,  # Earthquake source - store in Notes
-            'citation': None,  # Store in Notes
-            
-            # Descriptive
+            'obs_affiliation': None, 
+            'team_id': None, 
+            'team': None, 
+            'obs_position': None, 
+            'source': None, 
+            'citation': None,
             'description': 'Notes',
             'note': 'Vector_Offset_Feature_Notes',
-            
-            # Fault geometry - preferred values
             'fault_az_pref': 'Local_Fault_Azimuth_Degrees',
             'fault_dip_pref': 'Local_Fault_Dip',
             'sense': 'Slip_Sense',
-            
-            # Rupture characteristics
             'rupture_width_pref': 'Rupture_Width_m',
             'rup_width_min': 'Rupture_Width_Min_m',
             'rup_width_max': 'Rupture_Width_Max_m',
             'fault_expression': 'Rupture_Expression',
             'scarp_facing_direction': 'Scarp_Facing_Direction',
-            
-            # Slip vector measurements
             'vector_length_pref': 'Net_Slip_Preferred_cm',
             'vector_length_min': 'Net_Slip_Min_cm', 
             'vector_length_max': 'Net_Slip_Max_cm',
             'vect_az_pref': 'VM_Slip_Azimuth',
             'vect_plunge_pref': 'Plunge',
-            
-            # Horizontal offset
             'horiz_offset_pref': 'Horizontal_Separation_cm',
             'horiz_offset_min': 'Horizontal_Separation_Min_cm',
             'horiz_offset_max': 'Horizontal_Separation_Max_cm',
             'horiz_slip_type': 'Fault_Slip_Measurement_Type',
             'horiz_az_pref': 'Slip_Azimuth',
-            
-            # Vertical offset  
             'vert_offset_pref': 'Vertical_Separation_cm',
             'vert_offset_min': 'Vertical_Separation_Min_cm',
             'vert_offset_max': 'Vertical_Separation_Max_cm',
-            
-            # Heave (extension/compression)
             'heave_pref': 'Heave_cm',
             'heave_min': 'Heave_min_cm',
             'heave_max': 'Heave_max_cm',
-            
-            # Location (CRITICAL ISSUE - these fields exist in Ridgecrest but not Current)
-            'latitude': None,  # NEED TO ADD TO CURRENT SCHEMA
-            'longitude': None,  # NEED TO ADD TO CURRENT SCHEMA
+            'latitude': None, 
+            'longitude': None, 
             'orig_lat': None,
             'orig_lon': None,
-            
-            # Observational details - store in Notes
             'observed_feature': None,
             'feature_type': None,
             'striations_observed': None,
@@ -146,17 +113,22 @@ class EarthquakeDataMapper:
         """Load Napa dataset"""
         try:
             if file_path.endswith('.csv'):
-                # Try comma-separated first
-                df = pd.read_csv(file_path)
-                
-                # If only 1 column, try tab-separated
-                if len(df.columns) == 1:
-                    df = pd.read_csv(file_path, sep='\t')
-                    
-                # If still only 1 column, try other separators
-                if len(df.columns) == 1:
-                    df = pd.read_csv(file_path, sep='|')  # Try pipe separator
-                    
+                # Try different encodings
+                for encoding in ['utf-8', 'latin-1', 'cp1252', 'iso-8859-1']:
+                    try:
+                        df = pd.read_csv(file_path, encoding=encoding)
+                        
+                        # If only 1 column, try tab-separated
+                        if len(df.columns) == 1:
+                            df = pd.read_csv(file_path, sep='\t', encoding=encoding)
+                        
+                        logger.info(f"Successfully loaded Napa data with {encoding} encoding")
+                        break
+                    except UnicodeDecodeError:
+                        continue
+                    except Exception as e:
+                        logger.warning(f"Failed with {encoding}: {e}")
+                        continue
             else:
                 df = pd.read_excel(file_path)
                 
@@ -279,7 +251,7 @@ class EarthquakeDataMapper:
             if unmapped_notes:
                 notes_parts.append(f"Additional: {unmapped_notes}")
             
-            # CRITICAL: Add location data to notes since it's missing from current schema
+            # Add location data to notes since it's missing from current schema
             location_parts = []
             for coord_field in ['latitude', 'longitude', 'orig_lat', 'orig_lon']:
                 if coord_field in row and pd.notna(row[coord_field]):
@@ -379,13 +351,6 @@ def main():
         logger.info("Starting earthquake data migration...")
         napa_df = mapper.load_napa_data(napa_file)
         ridgecrest_df = mapper.load_ridgecrest_data(ridgecrest_file)
-
-        # DEBUG: Check what columns we actually have
-        print("\nNAPA COLUMNS:")
-        print(list(napa_df.columns)[:])  # First 10 columns
-        
-        print("\nRIDGECREST COLUMNS:")
-        print(list(ridgecrest_df.columns)[:])  # First 10 columns
     
         # Check if they're identical
         if list(napa_df.columns) == list(ridgecrest_df.columns):
