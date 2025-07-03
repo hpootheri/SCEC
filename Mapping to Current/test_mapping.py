@@ -371,8 +371,8 @@ def main():
     
     # File paths (update these to your actual file locations)
     # napa_file = "napa_observations.csv" 
-    napa_file = "C:/Users/rajuv/OneDrive/Desktop/Work/SCEC SOURCES Internship/Mapping to Current/napa_observations.csv" 
-    ridgecrest_file = "C:/Users/rajuv/OneDrive/Desktop/Work/SCEC SOURCES Internship/Mapping to Current/ridgecrest_observations.csv"  
+    napa_file = "C:/Users/rajuv/OneDrive/Desktop/Work/SCEC SOURCES Internship/SCEC/Mapping to Current/napa_observations.csv" 
+    ridgecrest_file = "C:/Users/rajuv/OneDrive/Desktop/Work/SCEC SOURCES Internship/SCEC/Mapping to Current/ridgecrest_observations.csv"  
     
     try:
         # Load datasets
