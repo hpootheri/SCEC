@@ -42,7 +42,7 @@ class EarthquakeDataMapper:
         }
         
         self.ridgecrest_mapping = {
-            'intid' : 'OBJECTID',
+            'intid' : None,  # Let OBJECTID auto-generate
             'origid' : 'Station_ID',
             'observer' : 'Creator',
             'obs_affiliation' : None,
@@ -53,7 +53,7 @@ class EarthquakeDataMapper:
             'origin' : 'Feature_Origin',
             'source' : None,
             'citation' : None, 
-            'description' : None,
+            'description' : 'Notes',  # FIXED: Was None, now maps to Notes
             'fault_az_min' : None,
             'fault_az_pref' : 'Local_Fault_Azimuth_Degrees',
             'fault_az_max' : None,
@@ -104,7 +104,7 @@ class EarthquakeDataMapper:
             'longitude' : None,
             'orig_lat' : None,
             'orig_lon' : None,
-            'note' : 'Notes',
+            'note' : 'Vector_Offset_Feature_Notes',  # FIXED: Was 'Notes', now correct
         }
         
         # Define current schema structure
@@ -251,8 +251,8 @@ class EarthquakeDataMapper:
         for idx, row in ridgecrest_df.iterrows():
             mapped_row = {}
             
-            # Generate OBJECTID
-            mapped_row['OBJECTID'] = idx + 1000  # Offset to avoid conflicts with Napa
+            # Generate OBJECTID (auto-incrementing, offset to avoid conflicts with Napa)
+            mapped_row['OBJECTID'] = idx + 1000
             
             # Apply direct mappings
             for ridgecrest_field, current_field in self.ridgecrest_mapping.items():
@@ -261,8 +261,11 @@ class EarthquakeDataMapper:
             
             # Handle Notes field - combine description with unmapped fields
             notes_parts = []
-            if 'description' in row and pd.notna(row['description']):
-                notes_parts.append(str(row['description']))
+            
+            # Get the description from direct mapping (now that description maps to Notes)
+            existing_notes = mapped_row.get('Notes', '')
+            if existing_notes:
+                notes_parts.append(str(existing_notes))
             
             # Add unmapped field info to notes
             unmapped_notes = self.create_notes_field(row, ridgecrest_unmapped, self.ridgecrest_mapping)
@@ -278,6 +281,7 @@ class EarthquakeDataMapper:
             if location_parts:
                 notes_parts.append(f"Coordinates: {'; '.join(location_parts)}")
             
+            # Update the Notes field with combined content
             mapped_row['Notes'] = "; ".join(notes_parts) if notes_parts else ""
             
             # Set default values for system fields
@@ -286,7 +290,7 @@ class EarthquakeDataMapper:
             mapped_row['Editor'] = 'Ridgecrest_Migration'
             
             # Add dataset source identifier
-            if 'Notes' in mapped_row:
+            if mapped_row['Notes']:
                 mapped_row['Notes'] = f"Source: Ridgecrest 2019; {mapped_row['Notes']}"
             else:
                 mapped_row['Notes'] = "Source: Ridgecrest 2019"
@@ -338,18 +342,27 @@ class EarthquakeDataMapper:
         
         report.append("CRITICAL ISSUES IDENTIFIED:")
         report.append("  1. LOCATION DATA MISSING: Current schema lacks latitude/longitude fields")
-        report.append("     - Ridgecrest coordinates stored in Notes field")
+        report.append("     - All coordinates stored in Notes field")
         report.append("     - Recommend adding coordinate fields to Current schema")
         report.append("")
-        report.append("  2. DATA LOSS: Some detailed measurements lost due to schema differences")
-        report.append("     - Min/max ranges for some measurements")
+        report.append("  2. DATA PRESERVATION: Unmapped fields stored in Notes")
+        report.append("     - Observer affiliations, team info, observational details")
+        report.append("     - Min/max measurement ranges")
         report.append("     - Local fracture orientation data")
-        report.append("     - Observational details (striations, gouge)")
         report.append("")
         
         report.append("FIELD MAPPING SUMMARY:")
         report.append(f"  Napa direct mappings: {sum(1 for v in self.napa_mapping.values() if v is not None)}")
         report.append(f"  Ridgecrest direct mappings: {sum(1 for v in self.ridgecrest_mapping.values() if v is not None)}")
+        report.append("")
+        
+        report.append("MAPPING CORRECTIONS APPLIED:")
+        report.append("  - Fixed: Ridgecrest description → Notes (was unmapped)")
+        report.append("  - Fixed: Ridgecrest note → Vector_Offset_Feature_Notes (was Notes)")
+        report.append("  - Fixed: Ridgecrest OBJECTID auto-generation (removed intid mapping)")
+        report.append("  - Enhanced: Ridgecrest location data preservation in Notes")
+        report.append("")
+        report.append("NAPA MAPPING: No changes - kept original mapping intact")
         report.append("")
         
         return "\n".join(report)
@@ -360,7 +373,6 @@ def main():
     mapper = EarthquakeDataMapper()
     
     # File paths (update these to your actual file locations)
-    # napa_file = "napa_observations.csv" 
     napa_file = "C:/Users/rajuv/OneDrive/Desktop/Work/SCEC SOURCES Internship/SCEC/Mapping to Current/napa_observations.csv" 
     ridgecrest_file = "C:/Users/rajuv/OneDrive/Desktop/Work/SCEC SOURCES Internship/SCEC/Mapping to Current/ridgecrest_observations.csv"  
     
@@ -369,22 +381,43 @@ def main():
         logger.info("Starting earthquake data migration...")
         napa_df = mapper.load_napa_data(napa_file)
         ridgecrest_df = mapper.load_ridgecrest_data(ridgecrest_file)
-    
-        # Check if they're identical
-        if list(napa_df.columns) == list(ridgecrest_df.columns):
-            print("\n⚠️  WARNING: Napa and Ridgecrest have identical column structures!")
-            print("This suggests you might have the same dataset loaded twice.")
-            
-            if napa_df is None or ridgecrest_df is None:
-                logger.error("Failed to load input datasets")
-                return
-            
-        # Map to current schema
-        napa_current = mapper.map_napa_to_current(napa_df)
-        ridgecrest_current = mapper.map_ridgecrest_to_current(ridgecrest_df)
         
-        # Consolidate
-        consolidated = mapper.consolidate_datasets(napa_current, ridgecrest_current)
+        # Check if loading failed
+        if napa_df is None and ridgecrest_df is None:
+            logger.error("Failed to load both datasets")
+            return
+        elif napa_df is None:
+            logger.warning("Failed to load Napa data - proceeding with Ridgecrest only")
+        elif ridgecrest_df is None:
+            logger.warning("Failed to load Ridgecrest data - proceeding with Napa only")
+        
+        # Map to current schema
+        datasets_to_consolidate = []
+        
+        if napa_df is not None:
+            napa_current = mapper.map_napa_to_current(napa_df)
+            datasets_to_consolidate.append(napa_current)
+        
+        if ridgecrest_df is not None:
+            ridgecrest_current = mapper.map_ridgecrest_to_current(ridgecrest_df)
+            datasets_to_consolidate.append(ridgecrest_current)
+        
+        # Consolidate available datasets
+        if len(datasets_to_consolidate) == 2:
+            consolidated = mapper.consolidate_datasets(datasets_to_consolidate[0], datasets_to_consolidate[1])
+        elif len(datasets_to_consolidate) == 1:
+            consolidated = datasets_to_consolidate[0]
+            # Still need to finalize single dataset
+            for col in consolidated.columns:
+                if col in ['Notes', 'Vector_Offset_Feature_Notes', 'Slip_Offset_Feature_Notes']:
+                    consolidated[col] = consolidated[col].fillna('')
+                elif consolidated[col].dtype == 'object':
+                    consolidated[col] = consolidated[col].fillna('')
+                else:
+                    consolidated[col] = consolidated[col].fillna(np.nan)
+        else:
+            logger.error("No datasets available for processing")
+            return
         
         # Save consolidated dataset
         output_file = f"consolidated_earthquake_observations_{datetime.now().strftime('%Y%m%d')}.csv"
@@ -392,17 +425,33 @@ def main():
         logger.info(f"Consolidated dataset saved to: {output_file}")
         
         # Generate and save report
-        report = mapper.generate_migration_report(napa_df, ridgecrest_df, consolidated)
+        if napa_df is not None and ridgecrest_df is not None:
+            report = mapper.generate_migration_report(napa_df, ridgecrest_df, consolidated)
+        else:
+            # Generate simplified report for single dataset
+            dataset_name = "Napa" if napa_df is not None else "Ridgecrest"
+            dataset_df = napa_df if napa_df is not None else ridgecrest_df
+            report = f"EARTHQUAKE DATA MIGRATION REPORT\n"
+            report += f"{'=' * 50}\n"
+            report += f"Migration Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n"
+            report += f"INPUT DATASET:\n"
+            report += f"  {dataset_name}: {len(dataset_df)} records, {len(dataset_df.columns)} fields\n\n"
+            report += f"OUTPUT DATASET:\n"
+            report += f"  Mapped: {len(consolidated)} records, {len(consolidated.columns)} fields\n"
+        
         report_file = f"migration_report_{datetime.now().strftime('%Y%m%d')}.txt"
-        with open(report_file, 'w') as f:
+        with open(report_file, 'w', encoding='utf-8') as f:
             f.write(report)
         logger.info(f"Migration report saved to: {report_file}")
         
         print("\nMigration completed successfully!")
         print(f"Output files: {output_file}, {report_file}")
+        print(f"Records processed: {len(consolidated)}")
         
     except Exception as e:
         logger.error(f"Migration failed: {e}")
+        import traceback
+        traceback.print_exc()
 
 if __name__ == "__main__":
     main()
