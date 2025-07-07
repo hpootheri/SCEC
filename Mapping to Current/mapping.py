@@ -17,29 +17,29 @@ class EarthquakeDataMapper:
     """Class to handle mapping of earthquake observation data to current schema"""
     
     def __init__(self):
-        self.napa_mapping = {
-            'stnid': 'Station_ID', 
-            'intid': None, 
-            'observer': 'Creator',  
-            'obs_date': 'Date_of_Movement',  
-            'origin': 'Feature_Origin',  
-            'latitude': None,  
-            'longitude': None,  
-            'orig_lat': None, 
-            'orig_lon': None, 
-            'description': 'Notes',
-            'citation': None, 
-            'photo': None, 
-            'fault_azimuth': 'Local_Fault_Azimuth_Degrees',
-            'ss_displacement': 'Horizontal_Separation_cm',
-            'ss_sense': 'Slip_Sense',
-            'ext_offset': 'Heave_cm', 
-            'comp_offset': None, 
-            'vert_offset': 'Vertical_Separation_cm',
-            'upthrown_side': 'Scarp_Facing_Direction',
-            'observed_feature': None, 
-            'trace': None, 
-        }
+        self.napa_mapping = { 
+    'stnid': 'Station_ID',
+    'intid': 'OBJECTID',
+    'citation': None,
+    'obs_date': 'Date_of_Movement',
+    'latitude': None,
+    'longitude': None,
+    'orig_lat': None,
+    'orig_lon': None,
+    'photo': None,
+    'observer': 'Creator',
+    'observed_feature': 'Feature',
+    'description': 'Notes',
+    'fault_azimuth': 'Local_Fault_Azimuth_Degrees',
+    'ss_displacement': 'Horizontal_Separation_cm',
+    'ss_sense': 'Slip_Sense',
+    'ext_offset': 'Heave_cm',
+    'comp_offset': None,
+    'vert_offset': 'Vertical_Separation_cm',
+    'upthrown_side': None,
+    'trace': 'Rupture_Expression',
+    'origin': 'Feature_Origin',
+}
         
         self.ridgecrest_mapping = {
             'intid': None,  
