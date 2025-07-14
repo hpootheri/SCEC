@@ -1,0 +1,58 @@
+,Field Name,Field Type,Alias
+0,OBJECTID,esriFieldTypeOID,OBJECTID
+1,Station_ID,esriFieldTypeString,"Station ID (Initials_sequential number (i.e., TED_001))"
+2,Feature_Origin,esriFieldTypeString,Feature
+3,Notes,esriFieldTypeString,Notes
+4,Confidence_Feature_ID,esriFieldTypeString,Confidence in Feature ID
+5,Mode_Observation,esriFieldTypeString,Mode of Observation
+6,Slip_Sense,esriFieldTypeString,Slip Sense
+7,Scarp_Facing_Direction,esriFieldTypeString,Scarp Facing Direction
+8,Local_Fault_Dip,esriFieldTypeSmallInteger,Local Fault Dip (0-90°; right hand rule)
+9,Local_Fault_Azimuth_Degrees,esriFieldTypeSmallInteger,Local Fault Azimuth Degrees (0-360°; right hand rule)
+10,Slip_Azimuth,esriFieldTypeSmallInteger,Slip Azimuth (0-360°)
+11,Fault_Slip_Measurement_Type,esriFieldTypeString,"Fault Slip Measurement, Select Type"
+12,Heave_cm,esriFieldTypeDouble,Heave Preferred (cm)
+13,Heave_min_cm,esriFieldTypeDouble,Heave Min (cm)
+14,Heave_max_cm,esriFieldTypeDouble,Heave Max (cm)
+15,Rupture_Expression,esriFieldTypeString,Rupture Expression
+16,Rupture_Width_m,esriFieldTypeDouble,Rupture Width Preferred (m)
+17,Rupture_Width_Min_m,esriFieldTypeDouble,Rupture Width Min (m)
+18,Rupture_Width_Max_m,esriFieldTypeDouble,Rupture Width Max (m)
+19,VM_Slip_Azimuth,esriFieldTypeSmallInteger,Slip Vector Azimuth (0-360°)
+20,Plunge,esriFieldTypeSmallInteger,Slip Vector Plunge (0-90°)
+21,Net_Slip_Preferred_cm,esriFieldTypeDouble,Slip Preferred (cm)
+22,Net_Slip_Min_cm,esriFieldTypeDouble,Slip Min (cm)
+23,Net_Slip_Max_cm,esriFieldTypeDouble,Slip Max (cm)
+24,Vector_Measurement_Confidence,esriFieldTypeString,Vector Measurement Confidence
+25,Vector_Offset_Feature_Notes,esriFieldTypeString,Vector Measurement Notes
+26,Horizontal_Separation_cm,esriFieldTypeDouble,Horizontal Separation Preferred (cm)
+27,Horizontal_Separation_Min_cm,esriFieldTypeDouble,Horizontal Separation Min (cm)
+28,Horizontal_Separation_Max_cm,esriFieldTypeDouble,Horizontal Separation Max (cm)
+29,Vertical_Separation_cm,esriFieldTypeDouble,Vertical Separation Preferred (cm)
+30,Vertical_Separation_Min_cm,esriFieldTypeDouble,Vertical Separation Min (cm)
+31,Vertical_Separation_Max_cm,esriFieldTypeDouble,Vertical Separation Max (cm)
+32,Slip_Measurement_Confidence,esriFieldTypeString,Slip Measurement Confidence
+33,Slip_Offset_Feature_Notes,esriFieldTypeString,Slip Measurement Notes
+34,Diameter_m,esriFieldTypeDouble,Diameter (m)
+35,Height_of_Material_m,esriFieldTypeDouble,Height of Material (m)
+36,Estimated_Max_VertMov_m,esriFieldTypeDouble,Estimated Maximum Vertical Movement (m)
+37,LQ_Area_Affected_sqm,esriFieldTypeString,Area Affected (sq. m)
+38,Date_of_Movement,esriFieldTypeString,Date of Movement (YYYYMMDD_Time)
+39,Displacement_Amount,esriFieldTypeString,Displacement Amount
+40,Est_Direction_SM,esriFieldTypeString,Estimated Direction of Slope Movement (0-360°)
+41,Landslide_Feature,esriFieldTypeString,Landslide Feature
+42,Slide_Type,esriFieldTypeString,Slide Type
+43,Material_Type,esriFieldTypeString,Material Type
+44,Depth,esriFieldTypeString,Depth
+45,SM_Area_Affected_sqm,esriFieldTypeString,Area Affected (sq m)
+46,Est_Max_Drop_Elev_ft,esriFieldTypeDouble,Estimated Max Drop in Elevation (ft)
+47,Length_Exposed_Downslope,esriFieldTypeString,Length Exposed Downslope
+48,Cause_of_Damage,esriFieldTypeString,Cause of Damage
+49,Facility_Affected,esriFieldTypeString,Facility Affected
+50,Utility_Affected,esriFieldTypeString,Utility Affected
+51,Damage_Severity,esriFieldTypeString,Damage Severity
+52,GlobalID,esriFieldTypeGlobalID,GlobalID
+53,CreationDate,esriFieldTypeDate,CreationDate
+54,Creator,esriFieldTypeString,Creator
+55,EditDate,esriFieldTypeDate,EditDate
+56,Editor,esriFieldTypeString,Editor
